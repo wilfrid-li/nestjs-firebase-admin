@@ -5,19 +5,20 @@
 ## Description
 
 Firebase Admin Module for [Nest.js Framework](https://nestjs.com/)
+
 This is a fork of @aginix/nestjs-firebase-admin to support NestJS8 dependencies
 
 ## Installation
 
 ```bash
-$ yarn add @wilfrid-li/nestjs-firebase-admin
+$ yarn add @wilfridli/nestjs-firebase-admin
 ```
 
 ### Import module
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { FirebaseAdminModule } from '@wilfrid-li/nestjs-firebase-admin'
+import { FirebaseAdminModule } from '@wilfridli/nestjs-firebase-admin'
 import * as admin from 'firebase-admin'
 
 @Module({
